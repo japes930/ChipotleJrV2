@@ -19,8 +19,9 @@ public class ChipotleJr {
 
         int x;
         int counter = 0;
-        String burrito[] = new String[9];
+
         while(counter<25){
+            String burrito[] = new String[9];
 
             double totalCost = 3.00;
             for (String ing: ingredients){
