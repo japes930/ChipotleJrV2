@@ -33,7 +33,7 @@ public class ChipotleJr {
                         String newRice = rice[x];
                         burrito[0] = newRice + " rice";
                         if(newRice == "No"){
-                            return;
+                            continue;
                         }else{
                             totalCost+=.50;
                         }
@@ -44,7 +44,7 @@ public class ChipotleJr {
                         String newBeans = beans[x];
                         burrito[3] = newBeans + " beans";
                         if(newBeans == "No"){
-                            return;
+                            continue;
                         }else{
                             totalCost+=.50;
                         }
@@ -60,7 +60,7 @@ public class ChipotleJr {
                         String newVeggies = veggies[x];
                         burrito[1] = newVeggies;
                         if(newVeggies == "No"){
-                            return;
+                            continue;
                         }else if(newVeggies == "All"){
                             totalCost+=1.00;
                         }else{
@@ -73,7 +73,7 @@ public class ChipotleJr {
                         burrito[4] = newSalsa + " salsa";
 
                         if(newSalsa == "No"){
-                            return;
+                            continue;
                         }else if(newSalsa == "All"){
                             totalCost+=1.50;
                         }else{
